@@ -18,7 +18,3 @@ for (let i = 0; i < input.length; i++) {
 }
 
 console.log(answer);
-let b = 255;
-console.log(b.toString(2));
-console.log(b.toString(8));
-console.log(b.toString(16));
