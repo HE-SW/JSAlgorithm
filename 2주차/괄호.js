@@ -1,6 +1,6 @@
 let fs = require('fs');
 let line = fs.readFileSync('예제.txt').toString().split('\r\n');
-let length = line[0]; // 테스트 줄수
+let length = line[0]; // 테스트 데이터
 let answer = [];
 let stack = [];
 function sol(length) {

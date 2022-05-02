@@ -1,4 +1,3 @@
-const { log } = require('console');
 let fs = require('fs');
 let line = fs.readFileSync('예제.txt').toString().split(' ');
 let people = line[0]; // 사람 수
